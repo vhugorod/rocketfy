@@ -13,11 +13,11 @@ export const Container = styled.div`
   header {
     display: flex;
     justify-content: space-between;
-    align-itens: center;
-    height: 42px;
+    align-items: center;
+    height: 20px;
 
     h2 {
-      font-wight: 500;
+      font-weight: 500;
       font-size: 16px;
       padding: 0 10px;
     }
