@@ -11,7 +11,7 @@ Rocketfy
 </p>
 
 <div>
-  <img src="./src/assets/pipefy-board.png" alt="Pipefy clone" width="200" height="130">
+  <img src="./src/assets/pipefy-board.png" alt="Pipefy clone" width="100" height="100">
 </div>
 
 <hr />
