@@ -3,11 +3,11 @@ import { useDrag, useDrop } from 'react-dnd';
 
 import { Container, Label } from './styles';
 
-export default function Card({ data }) {
+export default function Card({ data, index }) {
   const ref = useRef();
 
   const [{ isDragging }, dragRef] = useDrag({
-    item: { type: 'CARD', id: data.id },
+    item: { type: 'CARD', index },
     collect: monitor => ({
       isDragging: monitor.isDragging(),
     }),
@@ -16,7 +16,15 @@ export default function Card({ data }) {
   const [, dropRef] = useDrop({
     accept: 'CARD',
     hover(item, monitor) {
-      console.log(item.id);
+      const draggedIndex = item.index;
+      const targetIndex = index;
+
+      if (draggedIndex === targetIndex) {
+        return;
+      }
+
+      const targetSize = ref.current.getBoundingClientRect();
+      console.log(targetSize);
     }
   })
 
