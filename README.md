@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+Rocketfy
+</h1>
+
+<p align="center">This is a clone of Pipefy website, including its mais features.</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
+
+<div>
+  <img src="./src/assets/pipefy-board.png" alt="Pipefy clone">
+</div>
+
+<hr />
 
 ## Available Scripts
 
